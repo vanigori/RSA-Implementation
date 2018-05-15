@@ -15,3 +15,4 @@ C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Rel
 C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.csproj.GenerateResource.Cache
 C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.exe
 C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.pdb
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.csprojResolveAssemblyReference.cache
