@@ -83,9 +83,11 @@
     </Compile>
     <Compile Include="Vigenere.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Vigenere.Designer.cs">
       <DependentUpon>Vigenere.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="CryptoClasses\VigenereCipher.cs" />
     <EmbeddedResource Include="MainMenu.resx">
@@ -111,6 +113,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vigenere.resx">
       <DependentUpon>Vigenere.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

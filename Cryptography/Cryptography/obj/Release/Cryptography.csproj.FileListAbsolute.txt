@@ -1,0 +1,17 @@
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Vigenere.resx
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Vigenere.cs
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Vigenere.Designer.cs
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Cryptography.exe.config
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Cryptography.exe
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Cryptography.pdb
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Newtonsoft.Json.dll
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\bin\Release\Newtonsoft.Json.xml
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.MainMenu.resources
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.Properties.Resources.resources
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.RSA.resources
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.Transposition.resources
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.Vernam.resources
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.Vigenere.resources
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.csproj.GenerateResource.Cache
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.exe
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Release\Cryptography.pdb

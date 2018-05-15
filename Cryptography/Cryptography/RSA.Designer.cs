@@ -61,9 +61,9 @@
             this.groupBox2.Controls.Add(this.tbxFileName);
             this.groupBox2.Controls.Add(this.btnSelectFile);
             this.groupBox2.Location = new System.Drawing.Point(820, 29);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(5);
             this.groupBox2.Size = new System.Drawing.Size(723, 880);
             this.groupBox2.TabIndex = 36;
             this.groupBox2.TabStop = false;
@@ -92,7 +92,7 @@
             // btnDecryptFile
             // 
             this.btnDecryptFile.Location = new System.Drawing.Point(411, 286);
-            this.btnDecryptFile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnDecryptFile.Margin = new System.Windows.Forms.Padding(5);
             this.btnDecryptFile.Name = "btnDecryptFile";
             this.btnDecryptFile.Size = new System.Drawing.Size(253, 67);
             this.btnDecryptFile.TabIndex = 28;
@@ -103,7 +103,7 @@
             // btnEncryptFile
             // 
             this.btnEncryptFile.Location = new System.Drawing.Point(69, 286);
-            this.btnEncryptFile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnEncryptFile.Margin = new System.Windows.Forms.Padding(5);
             this.btnEncryptFile.Name = "btnEncryptFile";
             this.btnEncryptFile.Size = new System.Drawing.Size(253, 67);
             this.btnEncryptFile.TabIndex = 27;
@@ -114,7 +114,7 @@
             // pgrStatus
             // 
             this.pgrStatus.Location = new System.Drawing.Point(21, 413);
-            this.pgrStatus.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pgrStatus.Margin = new System.Windows.Forms.Padding(5);
             this.pgrStatus.Name = "pgrStatus";
             this.pgrStatus.Size = new System.Drawing.Size(645, 45);
             this.pgrStatus.TabIndex = 26;
@@ -132,7 +132,7 @@
             // tbxFileName
             // 
             this.tbxFileName.Location = new System.Drawing.Point(11, 119);
-            this.tbxFileName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tbxFileName.Margin = new System.Windows.Forms.Padding(5);
             this.tbxFileName.Name = "tbxFileName";
             this.tbxFileName.Size = new System.Drawing.Size(649, 61);
             this.tbxFileName.TabIndex = 24;
@@ -160,9 +160,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(36, 29);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(5);
             this.groupBox1.Size = new System.Drawing.Size(752, 880);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
@@ -251,10 +251,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1552, 925);
+            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.ClientSize = new System.Drawing.Size(1621, 990);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "RSA";
             this.Text = "RSA";
             this.groupBox2.ResumeLayout(false);
