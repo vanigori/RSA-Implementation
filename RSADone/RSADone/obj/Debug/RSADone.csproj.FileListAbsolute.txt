@@ -1,6 +1,0 @@
-C:\Users\vanigori\documents\visual studio 2017\Projects\RSADone\RSADone\bin\Debug\RSADone.exe.config
-C:\Users\vanigori\documents\visual studio 2017\Projects\RSADone\RSADone\bin\Debug\RSADone.exe
-C:\Users\vanigori\documents\visual studio 2017\Projects\RSADone\RSADone\bin\Debug\RSADone.pdb
-C:\Users\vanigori\documents\visual studio 2017\Projects\RSADone\RSADone\obj\Debug\RSADone.exe
-C:\Users\vanigori\documents\visual studio 2017\Projects\RSADone\RSADone\obj\Debug\RSADone.pdb
-C:\Users\vanigori\documents\visual studio 2017\Projects\RSADone\RSADone\obj\Debug\RSADone.csprojResolveAssemblyReference.cache
