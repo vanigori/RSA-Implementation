@@ -24,14 +24,14 @@ namespace Cryptography
 
         private void btnEncrypt_Click(object sender, EventArgs e)
         {
-            encryptedText = tbxPlainText.Text;
             key = tbxKey.Text;
-            tbxCipherText.Text = TranspositionClass.encrypt(encryptedText, key);
+            encryptedText = TranspositionClass.encrypt(tbxPlainText.Text, key);
+            tbxCipherText.Text = encryptedText;
         }
 
         private void btnDecrypt_Click(object sender, EventArgs e)
         {
-            tbxDecryptedText.Text = TranspositionClass.decrypt(encryptedText, tbxKey.Text);
+            tbxDecryptedText.Text = TranspositionClass.decrypt(encryptedText, key);
         }
 
         private void btnSelectFile_Click(object sender, EventArgs e)

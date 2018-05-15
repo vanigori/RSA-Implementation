@@ -34,7 +34,7 @@ namespace Cryptography
                         plainTextMatrix[row,col] = plaintext.Substring(ptIndex++, 1);
                     }else
                     {
-                        plainTextMatrix[row, col] = "|";
+                        plainTextMatrix[row, col] = "l";
                     }
                 }
             }
@@ -78,7 +78,7 @@ namespace Cryptography
 
             int[] keyColIndexes = new int[key.Length];
 
-            for(int i =0; i<key.Length; i++)
+            for (int i = 0; i < key.Length; i++)
             {
                 keyColIndexes[i] = key.IndexOf(sortedKey[i]);
             }
@@ -92,7 +92,7 @@ namespace Cryptography
                 }
             }
 
-            return plainText.Trim(new char[] { '|'});
+            return plainText.Trim(new char[] { 'l'});
 
 
         }
@@ -190,7 +190,6 @@ namespace Cryptography
             {
                 for (int col = 0; col < key.Length; col++)
                 {
-                    
                     plainText[index2++] = plainTextMatrix[row, keyColIndexes[col]];
                 }
             }
