@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Numerics;
 using System.Security.Cryptography;
@@ -119,7 +120,7 @@ namespace Cryptography
             RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
             do
             {
-                randomNumbers = new byte[20];
+                randomNumbers = new byte[32];
                 rng.GetBytes(randomNumbers);
                 p = new BigInteger(randomNumbers);
                 p = BigInteger.Abs(p);
@@ -129,7 +130,7 @@ namespace Cryptography
             Console.WriteLine("\nStep 1.2");
             do
             {
-                randomNumbers = new byte[20];
+                randomNumbers = new byte[32];
                 rng.GetBytes(randomNumbers);
                 q = new BigInteger(randomNumbers);
                 q = BigInteger.Abs(q);
@@ -186,14 +187,71 @@ namespace Cryptography
             return Encoding.UTF8.GetString(BigInteger.ModPow(c, d, n).ToByteArray());
         }
 
-        public byte[] encryptFile(byte[] file)
+        public SymmetricAlgorithm encryptFile(string inName, string outName)
         {
-            return rsa.Encrypt(file, true);
+            //Create the file streams to handle the input and output files.
+            FileStream fin = new FileStream(inName, FileMode.Open, FileAccess.Read);
+            FileStream fout = new FileStream(outName, FileMode.OpenOrCreate, FileAccess.Write);
+            fout.SetLength(0);
+
+            //Create variables to help with read and write.
+            byte[] bin = new byte[100]; //This is intermediate storage for the encryption.
+            long rdlen = 0;              //This is the total number of bytes written.
+            long totlen = fin.Length;    //This is the total length of the input file.
+            int len;                     //This is the number of bytes to be written at a time.
+
+            SymmetricAlgorithm rijn = SymmetricAlgorithm.Create(); //Creates the default implementation, which is RijndaelManaged.
+            rijn.GenerateIV();
+            rijn.GenerateKey();
+            CryptoStream encStream = new CryptoStream(fout, rijn.CreateEncryptor(), CryptoStreamMode.Write);
+
+            Console.WriteLine("Encrypting...");
+
+            //Read from the input file, then encrypt and write to the output file.
+            while (rdlen < totlen)
+            {
+                len = fin.Read(bin, 0, 100);
+                encStream.Write(bin, 0, len);
+                rdlen = rdlen + len;
+                Console.WriteLine("{0} bytes processed", rdlen);
+            }
+
+            encStream.Close();
+            fout.Close();
+            fin.Close();
+
+            return rijn;
         }
 
-        public byte[] decryptFile(byte[] file)
+        public void decryptFile(string inName, string outName, SymmetricAlgorithm rijn)
         {
-            return rsa.Decrypt(file, true);
+            //Create the file streams to handle the input and output files.
+            FileStream fin = new FileStream(inName, FileMode.Open, FileAccess.Read);
+            FileStream fout = new FileStream(outName, FileMode.OpenOrCreate, FileAccess.Write);
+            fout.SetLength(0);
+
+            //Create variables to help with read and write.
+            byte[] bin = new byte[100]; //This is intermediate storage for the encryption.
+            long rdlen = 0;              //This is the total number of bytes written.
+            long totlen = fin.Length;    //This is the total length of the input file.
+            int len;                     //This is the number of bytes to be written at a time.
+            
+            CryptoStream decStream = new CryptoStream(fout, rijn.CreateDecryptor(), CryptoStreamMode.Write);
+
+            Console.WriteLine("Encrypting...");
+
+            //Read from the input file, then encrypt and write to the output file.
+            while (rdlen < totlen)
+            {
+                len = fin.Read(bin, 0, 100);
+                decStream.Write(bin, 0, len);
+                rdlen = rdlen + len;
+                Console.WriteLine("{0} bytes processed", rdlen);
+            }
+
+            decStream.Close();
+            fout.Close();
+            fin.Close();
         }
     }
 }
