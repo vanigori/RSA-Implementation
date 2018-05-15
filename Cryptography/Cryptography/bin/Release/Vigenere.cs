@@ -31,7 +31,7 @@ namespace Cryptography
                 vc = new VigenereCipher(tbKey.Text);
 
             tbCipher.Text = vc.encrypt(tbPlain.Text);
-            tbDecrypted.Text = vc.decrypt(tbCipher.Text);
+            
             
         }
 

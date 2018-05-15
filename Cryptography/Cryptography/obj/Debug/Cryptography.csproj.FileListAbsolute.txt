@@ -61,3 +61,5 @@ C:\Users\Vorster\Desktop\Repositories\RSA-Implementation\Cryptography\Cryptograp
 C:\Users\Vorster\Desktop\Repositories\RSA-Implementation\Cryptography\Cryptography\obj\Debug\Cryptography.Vernam.resources
 C:\Users\Vorster\Desktop\Repositories\RSA-Implementation\Cryptography\Cryptography\obj\Debug\Cryptography.Vigenere.resources
 C:\Users\Vorster\Desktop\Repositories\RSA-Implementation\Cryptography\Cryptography\obj\Debug\Cryptography.csproj.GenerateResource.Cache
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Debug\Cryptography.csprojResolveAssemblyReference.cache
+C:\Users\vanigori\Documents\RSA-Implementation\Cryptography\Cryptography\obj\Debug\Cryptography.g.resources
