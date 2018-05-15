@@ -16,6 +16,9 @@ namespace Cryptography
             plaintext = plaintext.ToUpper();
             plaintext = plaintext.Replace(" ", "");
 
+            //Strip key of duplicates
+            key = string.Join("", key.ToCharArray().Distinct());
+
             //Sort key in alphabetical order
             char[] brokenKey = key.ToArray();
             Array.Sort(brokenKey);
@@ -55,6 +58,9 @@ namespace Cryptography
 
         public static string decrypt(string ciphertext, string key)
         {
+            //Strip key from duplicates
+            key = string.Join("", key.ToCharArray().Distinct());
+
             //Sort key in alphabetical order
             char[] brokenKey = key.ToArray();
             Array.Sort(brokenKey);
