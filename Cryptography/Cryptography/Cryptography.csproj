@@ -33,8 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CryptoClasses\CipherClass.cs" />
+    <Compile Include="CryptoClasses\RSAImplementation.cs" />
     <Compile Include="CryptoClasses\TranspositionClass.cs" />
     <Compile Include="CryptoClasses\VernamClass.cs" />
     <Compile Include="MainMenu.cs">
@@ -81,6 +87,7 @@
     <Compile Include="Vigenere.Designer.cs">
       <DependentUpon>Vigenere.cs</DependentUpon>
     </Compile>
+    <Compile Include="CryptoClasses\VigenereCipher.cs" />
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +112,7 @@
     <EmbeddedResource Include="Vigenere.resx">
       <DependentUpon>Vigenere.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

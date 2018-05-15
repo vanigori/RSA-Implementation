@@ -34,7 +34,7 @@ namespace Cryptography
                         plainTextMatrix[row,col] = plaintext.Substring(ptIndex++, 1);
                     }else
                     {
-                        plainTextMatrix[row, col] = "l";
+                        plainTextMatrix[row, col] = "|";
                     }
                 }
             }
@@ -92,7 +92,7 @@ namespace Cryptography
                 }
             }
 
-            return plainText.Trim(new char[] { 'l'});
+            return plainText.Trim(new char[] { '|'});
 
 
         }
