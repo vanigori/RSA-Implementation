@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblStatusAction = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             this.btnDecryptFile = new System.Windows.Forms.Button();
             this.btnEncryptFile = new System.Windows.Forms.Button();
@@ -37,6 +38,8 @@
             this.tbxFileName = new System.Windows.Forms.RichTextBox();
             this.btnSelectFile = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tbxKey = new System.Windows.Forms.RichTextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.tbxCipherText = new System.Windows.Forms.RichTextBox();
             this.btnDecrypt = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
@@ -46,9 +49,6 @@
             this.tbxDecryptedText = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tbxKey = new System.Windows.Forms.RichTextBox();
-            this.lblStatusAction = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -63,12 +63,21 @@
             this.groupBox2.Controls.Add(this.lblFile);
             this.groupBox2.Controls.Add(this.tbxFileName);
             this.groupBox2.Controls.Add(this.btnSelectFile);
-            this.groupBox2.Location = new System.Drawing.Point(559, 52);
+            this.groupBox2.Location = new System.Drawing.Point(468, 24);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(361, 537);
             this.groupBox2.TabIndex = 36;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "File Encryption";
+            // 
+            // lblStatusAction
+            // 
+            this.lblStatusAction.AutoSize = true;
+            this.lblStatusAction.Location = new System.Drawing.Point(10, 190);
+            this.lblStatusAction.Name = "lblStatusAction";
+            this.lblStatusAction.Size = new System.Drawing.Size(69, 17);
+            this.lblStatusAction.TabIndex = 30;
+            this.lblStatusAction.Text = "No Action";
             // 
             // lblStatus
             // 
@@ -147,12 +156,29 @@
             this.groupBox1.Controls.Add(this.tbxDecryptedText);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(123, 52);
+            this.groupBox1.Location = new System.Drawing.Point(32, 24);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(376, 537);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Text Encryption";
+            // 
+            // tbxKey
+            // 
+            this.tbxKey.Location = new System.Drawing.Point(9, 170);
+            this.tbxKey.Name = "tbxKey";
+            this.tbxKey.Size = new System.Drawing.Size(324, 66);
+            this.tbxKey.TabIndex = 34;
+            this.tbxKey.Text = "";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(4, 148);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(89, 17);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Random Key";
             // 
             // tbxCipherText
             // 
@@ -243,40 +269,17 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Plaintext";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 148);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 17);
-            this.label4.TabIndex = 33;
-            this.label4.Text = "Random Key";
-            // 
-            // tbxKey
-            // 
-            this.tbxKey.Location = new System.Drawing.Point(9, 170);
-            this.tbxKey.Name = "tbxKey";
-            this.tbxKey.Size = new System.Drawing.Size(324, 66);
-            this.tbxKey.TabIndex = 34;
-            this.tbxKey.Text = "";
-            // 
-            // lblStatusAction
-            // 
-            this.lblStatusAction.AutoSize = true;
-            this.lblStatusAction.Location = new System.Drawing.Point(10, 190);
-            this.lblStatusAction.Name = "lblStatusAction";
-            this.lblStatusAction.Size = new System.Drawing.Size(69, 17);
-            this.lblStatusAction.TabIndex = 30;
-            this.lblStatusAction.Text = "No Action";
-            // 
             // Vernam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1168, 619);
+            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.ClientSize = new System.Drawing.Size(856, 576);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Vernam";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vernam";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

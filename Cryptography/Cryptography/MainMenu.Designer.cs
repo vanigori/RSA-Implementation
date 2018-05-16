@@ -42,10 +42,10 @@
             this.btnVigenere.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVigenere.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVigenere.ForeColor = System.Drawing.Color.Transparent;
-            this.btnVigenere.Location = new System.Drawing.Point(442, 157);
-            this.btnVigenere.Margin = new System.Windows.Forms.Padding(8);
+            this.btnVigenere.Location = new System.Drawing.Point(221, 81);
+            this.btnVigenere.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVigenere.Name = "btnVigenere";
-            this.btnVigenere.Size = new System.Drawing.Size(348, 200);
+            this.btnVigenere.Size = new System.Drawing.Size(174, 103);
             this.btnVigenere.TabIndex = 14;
             this.btnVigenere.Text = "VIGENERE CIPHER";
             this.btnVigenere.UseVisualStyleBackColor = true;
@@ -57,10 +57,10 @@
             this.btnColumnar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnColumnar.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnColumnar.ForeColor = System.Drawing.Color.Red;
-            this.btnColumnar.Location = new System.Drawing.Point(806, 157);
-            this.btnColumnar.Margin = new System.Windows.Forms.Padding(8);
+            this.btnColumnar.Location = new System.Drawing.Point(403, 81);
+            this.btnColumnar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnColumnar.Name = "btnColumnar";
-            this.btnColumnar.Size = new System.Drawing.Size(348, 200);
+            this.btnColumnar.Size = new System.Drawing.Size(174, 103);
             this.btnColumnar.TabIndex = 12;
             this.btnColumnar.Text = "COLUMNAR TRANSPOSITION";
             this.btnColumnar.UseVisualStyleBackColor = true;
@@ -72,10 +72,10 @@
             this.btnRSA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRSA.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRSA.ForeColor = System.Drawing.Color.Red;
-            this.btnRSA.Location = new System.Drawing.Point(806, 372);
-            this.btnRSA.Margin = new System.Windows.Forms.Padding(8);
+            this.btnRSA.Location = new System.Drawing.Point(403, 192);
+            this.btnRSA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRSA.Name = "btnRSA";
-            this.btnRSA.Size = new System.Drawing.Size(348, 200);
+            this.btnRSA.Size = new System.Drawing.Size(174, 103);
             this.btnRSA.TabIndex = 16;
             this.btnRSA.Text = "RSA";
             this.btnRSA.UseVisualStyleBackColor = true;
@@ -87,10 +87,10 @@
             this.btnVernam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVernam.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVernam.ForeColor = System.Drawing.Color.Red;
-            this.btnVernam.Location = new System.Drawing.Point(442, 372);
-            this.btnVernam.Margin = new System.Windows.Forms.Padding(8);
+            this.btnVernam.Location = new System.Drawing.Point(221, 192);
+            this.btnVernam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVernam.Name = "btnVernam";
-            this.btnVernam.Size = new System.Drawing.Size(348, 200);
+            this.btnVernam.Size = new System.Drawing.Size(174, 103);
             this.btnVernam.TabIndex = 13;
             this.btnVernam.Text = "VERNAM CIPHER";
             this.btnVernam.UseVisualStyleBackColor = true;
@@ -100,11 +100,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(366, 17);
-            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label1.Location = new System.Drawing.Point(183, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(866, 67);
+            this.label1.Size = new System.Drawing.Size(445, 33);
             this.label1.TabIndex = 17;
             this.label1.Text = "Select your choice of encryption";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -114,30 +114,30 @@
             this.btnExit.BackgroundImage = global::Cryptography.Properties.Resources.images;
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnExit.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnExit.Location = new System.Drawing.Point(442, 587);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(8);
+            this.btnExit.Location = new System.Drawing.Point(221, 303);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(712, 168);
+            this.btnExit.Size = new System.Drawing.Size(356, 87);
             this.btnExit.TabIndex = 15;
-            this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Cryptography.Properties.Resources.GD_Embedded_Encryption_Hero_02_rev;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1612, 829);
+            this.ClientSize = new System.Drawing.Size(806, 428);
             this.Controls.Add(this.btnVigenere);
             this.Controls.Add(this.btnColumnar);
             this.Controls.Add(this.btnRSA);
             this.Controls.Add(this.btnVernam);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
-            this.Margin = new System.Windows.Forms.Padding(6);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "MainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cryptography Home";
             this.ResumeLayout(false);
             this.PerformLayout();

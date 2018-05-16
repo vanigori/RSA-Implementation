@@ -60,11 +60,11 @@
             this.groupBox2.Controls.Add(this.lblFile);
             this.groupBox2.Controls.Add(this.tbxFileName);
             this.groupBox2.Controls.Add(this.btnSelectFile);
-            this.groupBox2.Location = new System.Drawing.Point(820, 29);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(5);
+            this.groupBox2.Location = new System.Drawing.Point(410, 15);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox2.Size = new System.Drawing.Size(723, 880);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox2.Size = new System.Drawing.Size(362, 454);
             this.groupBox2.TabIndex = 36;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "File Encryption";
@@ -72,29 +72,29 @@
             // lblStatusAction
             // 
             this.lblStatusAction.AutoSize = true;
-            this.lblStatusAction.Location = new System.Drawing.Point(13, 377);
-            this.lblStatusAction.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lblStatusAction.Location = new System.Drawing.Point(6, 195);
+            this.lblStatusAction.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStatusAction.Name = "lblStatusAction";
-            this.lblStatusAction.Size = new System.Drawing.Size(111, 32);
+            this.lblStatusAction.Size = new System.Drawing.Size(55, 17);
             this.lblStatusAction.TabIndex = 30;
             this.lblStatusAction.Text = "Waiting";
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(611, 463);
-            this.lblStatus.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblStatus.Location = new System.Drawing.Point(306, 239);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(56, 32);
+            this.lblStatus.Size = new System.Drawing.Size(28, 17);
             this.lblStatus.TabIndex = 29;
             this.lblStatus.Text = "0%";
             // 
             // btnDecryptFile
             // 
-            this.btnDecryptFile.Location = new System.Drawing.Point(411, 286);
-            this.btnDecryptFile.Margin = new System.Windows.Forms.Padding(5);
+            this.btnDecryptFile.Location = new System.Drawing.Point(206, 148);
+            this.btnDecryptFile.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnDecryptFile.Name = "btnDecryptFile";
-            this.btnDecryptFile.Size = new System.Drawing.Size(253, 67);
+            this.btnDecryptFile.Size = new System.Drawing.Size(126, 35);
             this.btnDecryptFile.TabIndex = 28;
             this.btnDecryptFile.Text = "Decrypt File";
             this.btnDecryptFile.UseVisualStyleBackColor = true;
@@ -102,10 +102,10 @@
             // 
             // btnEncryptFile
             // 
-            this.btnEncryptFile.Location = new System.Drawing.Point(69, 286);
-            this.btnEncryptFile.Margin = new System.Windows.Forms.Padding(5);
+            this.btnEncryptFile.Location = new System.Drawing.Point(34, 148);
+            this.btnEncryptFile.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnEncryptFile.Name = "btnEncryptFile";
-            this.btnEncryptFile.Size = new System.Drawing.Size(253, 67);
+            this.btnEncryptFile.Size = new System.Drawing.Size(126, 35);
             this.btnEncryptFile.TabIndex = 27;
             this.btnEncryptFile.Text = "Encrypt File";
             this.btnEncryptFile.UseVisualStyleBackColor = true;
@@ -113,37 +113,37 @@
             // 
             // pgrStatus
             // 
-            this.pgrStatus.Location = new System.Drawing.Point(21, 413);
-            this.pgrStatus.Margin = new System.Windows.Forms.Padding(5);
+            this.pgrStatus.Location = new System.Drawing.Point(10, 213);
+            this.pgrStatus.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pgrStatus.Name = "pgrStatus";
-            this.pgrStatus.Size = new System.Drawing.Size(645, 45);
+            this.pgrStatus.Size = new System.Drawing.Size(322, 23);
             this.pgrStatus.TabIndex = 26;
             // 
             // lblFile
             // 
             this.lblFile.AutoSize = true;
-            this.lblFile.Location = new System.Drawing.Point(13, 79);
-            this.lblFile.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblFile.Location = new System.Drawing.Point(6, 41);
+            this.lblFile.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFile.Name = "lblFile";
-            this.lblFile.Size = new System.Drawing.Size(62, 32);
+            this.lblFile.Size = new System.Drawing.Size(30, 17);
             this.lblFile.TabIndex = 25;
             this.lblFile.Text = "File";
             // 
             // tbxFileName
             // 
-            this.tbxFileName.Location = new System.Drawing.Point(11, 119);
-            this.tbxFileName.Margin = new System.Windows.Forms.Padding(5);
+            this.tbxFileName.Location = new System.Drawing.Point(6, 61);
+            this.tbxFileName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tbxFileName.Name = "tbxFileName";
-            this.tbxFileName.Size = new System.Drawing.Size(649, 61);
+            this.tbxFileName.Size = new System.Drawing.Size(326, 33);
             this.tbxFileName.TabIndex = 24;
             this.tbxFileName.Text = "";
             // 
             // btnSelectFile
             // 
-            this.btnSelectFile.Location = new System.Drawing.Point(411, 200);
-            this.btnSelectFile.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btnSelectFile.Location = new System.Drawing.Point(206, 103);
+            this.btnSelectFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSelectFile.Name = "btnSelectFile";
-            this.btnSelectFile.Size = new System.Drawing.Size(253, 67);
+            this.btnSelectFile.Size = new System.Drawing.Size(126, 35);
             this.btnSelectFile.TabIndex = 23;
             this.btnSelectFile.Text = "Select File...";
             this.btnSelectFile.UseVisualStyleBackColor = true;
@@ -159,30 +159,30 @@
             this.groupBox1.Controls.Add(this.tbxDecryptedText);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(36, 29);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.groupBox1.Location = new System.Drawing.Point(18, 15);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox1.Size = new System.Drawing.Size(752, 880);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox1.Size = new System.Drawing.Size(376, 454);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Text Encryption";
             // 
             // tbxCipherText
             // 
-            this.tbxCipherText.Location = new System.Drawing.Point(13, 327);
-            this.tbxCipherText.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.tbxCipherText.Location = new System.Drawing.Point(6, 169);
+            this.tbxCipherText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxCipherText.Name = "tbxCipherText";
-            this.tbxCipherText.Size = new System.Drawing.Size(655, 204);
+            this.tbxCipherText.Size = new System.Drawing.Size(330, 107);
             this.tbxCipherText.TabIndex = 25;
             this.tbxCipherText.Text = "";
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(219, 732);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btnClear.Location = new System.Drawing.Point(110, 378);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(253, 67);
+            this.btnClear.Size = new System.Drawing.Size(126, 35);
             this.btnClear.TabIndex = 31;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -190,10 +190,10 @@
             // 
             // btnEncrypt
             // 
-            this.btnEncrypt.Location = new System.Drawing.Point(419, 200);
-            this.btnEncrypt.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btnEncrypt.Location = new System.Drawing.Point(210, 103);
+            this.btnEncrypt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEncrypt.Name = "btnEncrypt";
-            this.btnEncrypt.Size = new System.Drawing.Size(256, 67);
+            this.btnEncrypt.Size = new System.Drawing.Size(128, 35);
             this.btnEncrypt.TabIndex = 22;
             this.btnEncrypt.Text = "Encrypt Text";
             this.btnEncrypt.UseVisualStyleBackColor = true;
@@ -201,63 +201,65 @@
             // 
             // tbxPlainText
             // 
-            this.tbxPlainText.Location = new System.Drawing.Point(16, 119);
-            this.tbxPlainText.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.tbxPlainText.Location = new System.Drawing.Point(8, 61);
+            this.tbxPlainText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxPlainText.Name = "tbxPlainText";
-            this.tbxPlainText.Size = new System.Drawing.Size(655, 61);
+            this.tbxPlainText.Size = new System.Drawing.Size(330, 33);
             this.tbxPlainText.TabIndex = 24;
             this.tbxPlainText.Text = "";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 615);
-            this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label3.Location = new System.Drawing.Point(6, 317);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(206, 32);
+            this.label3.Size = new System.Drawing.Size(104, 17);
             this.label3.TabIndex = 29;
             this.label3.Text = "Decrypted Text";
             // 
             // tbxDecryptedText
             // 
-            this.tbxDecryptedText.Location = new System.Drawing.Point(19, 653);
-            this.tbxDecryptedText.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.tbxDecryptedText.Location = new System.Drawing.Point(10, 337);
+            this.tbxDecryptedText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbxDecryptedText.Name = "tbxDecryptedText";
-            this.tbxDecryptedText.Size = new System.Drawing.Size(652, 56);
+            this.tbxDecryptedText.Size = new System.Drawing.Size(328, 31);
             this.tbxDecryptedText.TabIndex = 26;
             this.tbxDecryptedText.Text = "";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 286);
-            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label2.Location = new System.Drawing.Point(6, 148);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(161, 32);
+            this.label2.Size = new System.Drawing.Size(80, 17);
             this.label2.TabIndex = 28;
             this.label2.Text = "Cipher Text";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 81);
-            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label1.Location = new System.Drawing.Point(4, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 32);
+            this.label1.Size = new System.Drawing.Size(61, 17);
             this.label1.TabIndex = 27;
             this.label1.Text = "Plaintext";
             // 
             // RSA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
-            this.ClientSize = new System.Drawing.Size(1621, 990);
+            this.ClientSize = new System.Drawing.Size(810, 511);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.Margin = new System.Windows.Forms.Padding(5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "RSA";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RSA";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
